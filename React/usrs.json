@@ -1,0 +1,72 @@
+[
+  {
+    "id": 1,
+    "name": "Alice Johnson",
+    "email": "alice.johnson@example.com",
+    "role": "Frontend Developer",
+    "location": "New York"
+  },
+  {
+    "id": 2,
+    "name": "Bob Smith",
+    "email": "bob.smith@example.com",
+    "role": "Backend Engineer",
+    "location": "San Francisco"
+  },
+  {
+    "id": 3,
+    "name": "Charlie Adams",
+    "email": "charlie.adams@example.com",
+    "role": "Fullstack Developer",
+    "location": "Austin"
+  },
+  {
+    "id": 4,
+    "name": "Diana Lee",
+    "email": "diana.lee@example.com",
+    "role": "Product Designer",
+    "location": "Seattle"
+  },
+  {
+    "id": 5,
+    "name": "Evan Martinez",
+    "email": "evan.martinez@example.com",
+    "role": "DevOps Engineer",
+    "location": "Chicago"
+  },
+  {
+    "id": 6,
+    "name": "Fiona Patel",
+    "email": "fiona.patel@example.com",
+    "role": "QA Engineer",
+    "location": "Boston"
+  },
+  {
+    "id": 7,
+    "name": "George Kim",
+    "email": "george.kim@example.com",
+    "role": "Data Scientist",
+    "location": "Denver"
+  },
+  {
+    "id": 8,
+    "name": "Hannah Green",
+    "email": "hannah.green@example.com",
+    "role": "Technical Writer",
+    "location": "Portland"
+  },
+  {
+    "id": 9,
+    "name": "Ian Turner",
+    "email": "ian.turner@example.com",
+    "role": "Security Engineer",
+    "location": "Phoenix"
+  },
+  {
+    "id": 10,
+    "name": "Julia Roberts",
+    "email": "julia.roberts@example.com",
+    "role": "Engineering Manager",
+    "location": "Remote"
+  }
+]
