@@ -127,5 +127,4 @@ note to self:
 leave fucking comments
 for fuck's sake.
 
-note taken
 */
