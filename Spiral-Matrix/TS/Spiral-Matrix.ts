@@ -61,13 +61,24 @@ function reverseSpiral(matrix: number[][]): number[] {
     return spiralOrder(matrix).reverse();
 }
 
+//fuck u
 function recursiveSpiral(matrix: number[][]): number[] {
+    // Base case: if the matrix is empty, return an empty array
     if (matrix.length === 0) {
         return [];
     }
+    // Remove and store the first row of the matrix
     const firstRow = matrix.shift()!;
+    // Shit is about to hit the fan
+    // Rotate the remaining matrix counterclockwise:
+    // - Transpose the matrix (swap rows and columns)
+    // - Reverse the order of the rows to achieve a 90-degree rotation
     const rest = matrix[0] ? matrix[0].map((_, i) => matrix.map(row => row[i])).reverse() : [];
+    // Concatenate the first row with the spiral order of the rotated submatrix
     return firstRow.concat(recursiveSpiral(rest));
+
+    // :| time complexity is O(n) + (O((m-1)) + O((n-1))) = O(m x n)
+    // space complexity is O(m + n) due to the recursion stack
 }
 
 function generateSpiralMatrix(m: number, n: number): number[][] {
@@ -115,4 +126,6 @@ console.log(generateSpiralMatrix(3, 5));
 note to self:
 leave fucking comments
 for fuck's sake.
+
+note taken
 */
